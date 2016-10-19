@@ -1,5 +1,5 @@
 {
-    "name": "fesor/json_spec",
+    "name": "duxet/json_spec",
     "description": "Easily handle JSON Structures with PhpSpec and Behat",
     "license": "MIT",
     "authors": [
