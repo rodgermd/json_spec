@@ -1,32 +1,33 @@
 {
-    "name": "duxet/json_spec",
-    "description": "Easily handle JSON Structures with PhpSpec and Behat",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sergey Protko",
-            "email": "fesors@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {
-          "JsonSpec\\": "src/"
-        }
-    },
-    "config": {
-        "bin-dir": "bin"
-    },
-    "require": {
-        "php": ">=5.4.0",
-        "fesor/json_matcher": "~0.2.1"
-    },
-    "require-dev": {
-        "phpspec/phpspec": "2.1.*@dev",
-        "behat/behat": "~3.0.13@stable",
-        "fabpot/php-cs-fixer": "~0.5"
-    },
-    "conflict": {
-        "behat/behat": "<3.0.13"
+  "name": "rodgermd/json_spec",
+  "description": "Fork of duxet/json_spec. Easily handle JSON Structures with PhpSpec and Behat",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Protko",
+      "email": "fesors@gmail.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "JsonSpec\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "fesor/json_matcher": "~0.2.1"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "2.1.*@dev",
+    "behat/behat": "~3.0.13@stable",
+    "fabpot/php-cs-fixer": "~0.5"
+  },
+  "conflict": {
+    "behat/behat": "<3.0.13",
+    "duxet/json_spec": "*"
+  }
 }
